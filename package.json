@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/ori-volfo/ng-classifieds#readme",
   "dependencies": {
-    "angular": "^1.6.7"
+    "angular": "^1.6.7",
+    "angular-animate": "^1.6.7",
+    "angular-aria": "^1.6.7",
+    "angular-material": "^1.1.5",
+    "mdi": "^2.0.46"
   }
 }
