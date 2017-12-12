@@ -18,3 +18,7 @@
 .navbar .filter{
     display: inline-flex;
 }
+
+.ng-dirty{
+    background-color: yellow;
+}
