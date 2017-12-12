@@ -5,7 +5,7 @@
         .module("myApp")
         .component('homeView', {
             templateUrl: 'components/views/home.tpl.html',
-            controller: ['myFactory','$filter',function(myFactory,$filter){
+            controller: ['myFactory',function(myFactory){
                 var vm = this;
                 vm.deleteItem = deleteItem;
                 myFactory.getData().then(function(response){
