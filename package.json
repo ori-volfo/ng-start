@@ -1,5 +1,5 @@
 {
-  "name": "ng-classifieds",
+  "name": "ng-start",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,20 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ori-volfo/ng-classifieds.git"
+    "url": "git+ssh://git@github.com/ori-volfo/ng-start.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ori-volfo/ng-classifieds/issues"
+    "url": "https://github.com/ori-volfo/ng-start/issues"
   },
-  "homepage": "https://github.com/ori-volfo/ng-classifieds#readme",
+  "homepage": "https://github.com/ori-volfo/ng-start#readme",
   "dependencies": {
     "angular": "^1.6.7",
     "angular-animate": "^1.6.7",
     "angular-aria": "^1.6.7",
     "angular-material": "^1.1.5",
-    "angular-ui-router": "^0.4.3",
-    "mdi": "^2.0.46"
+    "angular-ui-router": "^0.4.3"
   }
 }

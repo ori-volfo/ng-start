@@ -1,23 +1,17 @@
-button .material-icons{
-    vertical-align: initial;
+.navbar {
+    background-color: #000;
+}
+.navbar ul{
+    list-style: none;
+    display: inline-flex;
 }
 
-md-input-container .md-errors-spacer {
-    min-height: 0;
+.navbar ul li{
+    font-size: 16px;
+    background-color: darkgrey;
+    margin: 5px;
+    border-radius: 3px;
 }
-
-.classified.ng-enter, .classified.ng-move {
-    transition: 0.4s;
-    opacity: 0;
-}
-
-.classified.ng-enter.ng-enter-active, .classified.ng-move.ng-move.active {
-    opacity: 1;
-}
-.classified.ng-leave{
-    animation: 0.4s fade_classified;
-}
-@keyframes fade_classified{
-    from {opacity: 1}
-    to {opacity: 0}
+.navbar ul li a.md-button{
+    margin: 0;
 }
