@@ -3,23 +3,11 @@
 
     angular
         .module("myApp")
-        .controller("myCtrl",function($scope, $http, myFactory){
+        .controller("myCtrl",function($scope, $rootScope){
 
-            myFactory.getData().then(function(response){
-                $scope.classifieds = response.data;
-                $scope.categories = getCategories($scope.classifieds);
+            $scope.$on('search', function(event,term){
+                $rootScope.$broadcast('searchTerm',term);
             });
-
-            function getCategories(classifieds){
-                var categories = [];
-                angular.forEach(classifieds, function(item) {
-                    angular.forEach(item.categories, function(category){
-                        categories.push(category);
-                    });
-                });
-
-                return _.uniq(categories);
-            }
 
         });
 })();

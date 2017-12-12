@@ -1,4 +1,4 @@
 <h1>home</h1>
 <ul>
-    <li ng-repeat="item in $ctrl.items">{{item.title}}<md-button ng-click="$ctrl.deleteItem(item)">delete</md-button></li>
+    <li ng-repeat="item in $ctrl.items | filter : $ctrl.searchItem">{{item.title}}<md-button ng-click="$ctrl.deleteItem(item)">delete</md-button></li>
 </ul>
